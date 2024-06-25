@@ -167,7 +167,8 @@ $app = $socialite->create('foo');
 
 1. 使用服务提供类
 
-> {WARNING}
+> [!IMPORTANT]  
+> 
 > 👋🏻 你的自定义服务提供类必须实现 `Overtrue\Socialite\Contracts\ProviderInterface` 接口
 
 ```php
