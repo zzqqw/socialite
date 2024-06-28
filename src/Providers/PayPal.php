@@ -29,7 +29,7 @@ class PayPal extends Base
 
     protected string $authUrl = 'https://www.paypal.com/signin/authorize';
 
-    protected string $tokenURL = 'https://api.sandbox.paypal.com/v1/oauth2/token';
+    protected string $tokenURL = 'https://api-m.paypal.com/v1/oauth2/token';
 
     protected string $userinfoURL = 'https://api.paypal.com/v1/identity/openidconnect/userinfo?schema=openid';
 
